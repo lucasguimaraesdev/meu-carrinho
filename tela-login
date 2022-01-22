@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background-color: white;
+		}
+		#icon--png{
+			width: 200px;
+			height: auto;
+			position: absolute;
+			top: -6%;
+			left: 2%;
+		}
+		form{
+			padding-top: 50%;
+			padding-left: 15%;
+		}
+		input{
+			display: block;
+			background-color: #ccc;
+			width: 250px;
+			height: 40px;
+			margin-top: 2rem;
+			margin-bottom: 1rem;
+			border: none;
+		}
+
+		label{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 15pt;
+			font-weight: bold;
+			color: rgb(39, 39, 39);
+		}
+
+		.btn--submit{
+			background-color: black;
+			color: white;
+			width: 200px;
+			height: 40px;
+			border: none;
+			position: absolute;
+			top: 65%;
+			border-radius: 20px;
+		}
+
+		a{
+			position: absolute;
+			top: 75%;
+			left: 20%;
+			color: black;
+		}
+	</style>
+	<title>Login </title>
+</head>
+<body>
+	<header>
+		<img src="https://images.tcdn.com.br/img/editor/up/990591/etnies2.png" id="icon--png">
+	</header>
+	<form action="#">
+		<img src="" alt="" id="icone--login">
+		<label for="email" id="email--label">Email:</label>
+		<input type="email" name="email" id="email">
+		<label for="senha" id="senha--label">Senha:</label>
+		<input type="password" name="senha" id="password">
+		<button class="btn--submit">Pronto</button>
+		<a href="#">Pular login</a>
+	</form>
+</body>
+</html>
